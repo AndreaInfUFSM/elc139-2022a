@@ -12,8 +12,7 @@ Plataformas: Discord e GitHub
  - Usaremos metodologias ativas de aprendizado. A cada novo conteúdo, haverá uma introdução expositiva, seguida de um trabalho envolvendo programação, realização de experimentos, apresentação e discussão de resultados.
  - Para cada conteúdo, será disponibilizado material em formatos variados (slides, vídeos, programas, textos, etc.).
  - Todo o material da disciplina estará no GitHub e as entregas de trabalhos também serão no GitHub. 
- - Usaremos Discord para interação síncrona/assíncrona por chat/áudio/vídeo. O convite para o servidor será enviado ao e-mail cadastrado no portal do aluno.
-
+ 
 
 
 ## Aulas
