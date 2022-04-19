@@ -27,7 +27,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>12/04/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Apresentação do plano de ensino e dos objetivos, da motivação e da ementa da disciplina (<a href="https://docs.google.com/presentation/d/1YM8IohMP7acFd-kU_Et-iUQ0gKlNDcFwW1xEgNrjgzI/edit?usp=sharing">slides</a>).</li>
+<li>Apresentação do plano de ensino e dos objetivos, da motivação e da ementa da disciplina (<a href="https://docs.google.com/presentation/d/1rCgrkuIy40MrlnpMAT3kt0uYKamsTSpqAT7WouH60DU/edit?usp=sharing">slides</a>).</li>
 </ul></td>
 </tr>
 
