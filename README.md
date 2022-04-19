@@ -1,5 +1,5 @@
-# Programação Paralela - ELC139-2021a
-Primeiro semestre de 2021  
+# Programação Paralela - ELC139-2022a
+Primeiro semestre de 2022  
 Professora: Andrea Schwertner Charão (andrea@inf.ufsm.br)  
 Horários: terças e quintas, das 10:30 às 12:30  
 Salas: 363 e 338  
@@ -13,7 +13,8 @@ Plataformas: Discord e GitHub
  - Para cada conteúdo, será disponibilizado material em formatos variados (slides, vídeos, programas, textos, etc.).
  - Todo o material da disciplina estará no GitHub e as entregas de trabalhos também serão no GitHub. 
  
-
+## Trabalhos
+1. [TOP500 & me: comparativo de arquiteturas paralelas](https://classroom.github.com/a/f4d420J6) (entrega até segunda, 25/04, 23h)
 
 ## Aulas
 
@@ -26,7 +27,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>12/04/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Apresentação do plano de ensino e dos objetivos, da motivação e da ementa da disciplina (slides | aula gravada).</li>
+<li>Apresentação do plano de ensino e dos objetivos, da motivação e da ementa da disciplina (<a href="https://docs.google.com/presentation/d/1YM8IohMP7acFd-kU_Et-iUQ0gKlNDcFwW1xEgNrjgzI/edit?usp=sharing">slides</a>).</li>
 </ul></td>
 </tr>
 
@@ -35,7 +36,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>14/04/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Visão geral de modelos de computadores paralelos (slides | aula gravada).</li>
+<li>Visão geral de modelos de computadores paralelos (<a href="https://view.genial.ly/60a520b654b1e10d06fd6c28/interactive-content-teaching-guide">slides</a>).</li>
 </ul></td>
 </tr>
 
@@ -44,8 +45,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>19/04/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Comparativo de arquiteturas de computadores paralelos.</li>
-<li> Realização do T1.</li>
+<li> Realização do T1 - Comparativo de arquiteturas de computadores paralelos.</li>
 </ul></td>
 </tr>
 
