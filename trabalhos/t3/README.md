@@ -1,7 +1,7 @@
-T3: Profiling de algoritmos de machine learning do Weka / wekaPython
+# T3: Profiling de algoritmos de machine learning do Weka / wekaPython
 
 
-# Motivação
+## Motivação
 
 Weka é uma ferramenta desenvolvida na Universidade de Waikato, na Nova Zelândia. É uma ferramenta consolidada e muito popular na área de data mining, oferecendo diversos algoritmos de machine learning e facilidades para aplicá-los via interface gráfica ou via código Java.
 
@@ -12,7 +12,7 @@ Muitos algoritmos podem exigir um tempo de execução significativo para dataset
 Mas como esse tempo de execução se divide entre as diversas partes do Weka e das bibliotecas em Python? Será que é possível fazer profiling disso? 
 
 
-# Preparação
+## Preparação
 
 1. Instale o Weka, o wekaPython e suas dependências. Isso está descrito nos passos 1 a 4 da seção de Preparação/Instalação em https://github.com/cassales/progpar-2022-profiling
 
@@ -26,4 +26,4 @@ $ ./weka.sh -memory 32g -main weka.Run weka.classifiers.sklearn.ScikitLearnClass
 No comando acima, altere `~/Downloads/datasets` para a localização do arquivo GMSC.arff em seu computador.
 
 
-4. Avise a professora quando terminar esses passos, para "desbloquear" os passos seguintes. :-)
+4. Avise a professora quando terminar esses passos, para "desbloquear" os passos seguintes. 😃
