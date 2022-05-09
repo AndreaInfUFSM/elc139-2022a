@@ -15,6 +15,7 @@ Plataformas: Discord e GitHub
  
 ## Trabalhos
 1. [TOP500 & me: comparativo de arquiteturas paralelas](https://classroom.github.com/a/f4d420J6) (entrega até segunda, 25/04, 23h)
+2. [Experiências com profilers](https://classroom.github.com/a/vhy7BDPE) (entrega até quarta, 04/05, 23h)
 
 ## Aulas
 
@@ -72,8 +73,9 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>28/04/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Análise de desempenho com profilers (slides | vídeo).</li>
-<li> Lançamento do T2.</li>
+<li>Análise de desempenho com profilers 
+  (<a href="https://docs.google.com/presentation/d/1aH458PIUhXjxxdu5TfS7a9I-56Nuynllcjw1OWlzOMo/edit?usp=sharing">slides</a>)</li>
+
 </ul></td>
 </tr>
 
