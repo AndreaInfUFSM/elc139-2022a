@@ -7,7 +7,7 @@ Weka é uma ferramenta desenvolvida na Universidade de Waikato, na Nova Zelândi
 
 Weka permite a instalação de pacotes que estendem suas funcionalidades. Um desses pacotes é o wekaPython, que habilita o Weka a invocar bibliotecas em Python, tais como scikit-learn. Com isso, é possível combinar facilidades do Weka com estas bibliotecas.
 
-Uma execução típica do Weka envolve a carga de um dataset e seu processamento com um algoritmo escolhido. 
+Uma execução típica do Weka compreende a carga de um dataset e seu processamento com um algoritmo escolhido. 
 Muitos algoritmos podem exigir um tempo de execução significativo para datasets com muitas instâncias e atributos.
 Mas como esse tempo de execução se divide entre as diversas partes do Weka e das bibliotecas em Python? Será que é possível fazer profiling disso? 
 
