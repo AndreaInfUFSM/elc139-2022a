@@ -19,11 +19,11 @@ Mas como esse tempo de execução se divide entre as diversas partes do Weka e d
 2. Baixe o dataset GMSC indicado em: https://github.com/cassales/progpar-2022-profiling#datasets Após descompactá-lo, vai ser gerado um arquivo GMSC.arff. Verifique a localização (path) para esse arquivo, pois vai ser necessário no passo seguinte.
 
 3. Execute o Weka com o algoritmo XGBoost para o dataset GMSC:
-```
-$ cd weka-3-8-6
-$ ./weka.sh -memory 32g -main weka.Run weka.classifiers.sklearn.ScikitLearnClassifier -learner XGBClassifier -parameters "tree_method=\"hist\",n_jobs=1" -t ~/Downloads/datasets/GMSC.arff -py-command python
-```
-No comando acima, altere `~/Downloads/datasets` para a localização do arquivo GMSC.arff em seu computador.
+   ```
+   $ cd weka-3-8-6
+   $ ./weka.sh -memory 32g -main weka.Run weka.classifiers.sklearn.ScikitLearnClassifier -learner XGBClassifier -parameters "tree_method=\"hist\",n_jobs=1" -t ~/Downloads/datasets/GMSC.arff -py-command python
+   ```
+   No comando acima, altere `~/Downloads/datasets` para a localização do arquivo GMSC.arff em seu computador.
 
 
 4. Avise a professora quando terminar esses passos, para "desbloquear" os passos seguintes. 😃
