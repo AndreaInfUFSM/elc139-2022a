@@ -27,3 +27,20 @@ Mas como esse tempo de execução se divide entre as diversas partes do Weka e d
 
 
 4. Avise a professora quando terminar esses passos, para "desbloquear" os passos seguintes. 😃
+
+
+# Profilers para Java
+
+Como o Weka é desenvolvido em Java, podemos usar profilers especializados em Java para entender o comportamento das execuções de seus algoritmos. Existem muitos profilers para Java, por exemplo: VisualVM, JProfiler, YourKit, Java Flight Recorder (JFR) + Java Mission Control (JMC), async-profiler, etc. Em geral, essas ferramentas são "sensíveis" às versões/implementações do Java. Assim, pode ser uma boa ideia descobrir mais sobre isso no Weka, antes de escolher um profiler (ou não :smiley:).
+
+# Desenvolvimento
+
+Para desenvolver este trabalho, vamos dividir as tarefas entre grupos/estudantes. Essas tarefas envolvem:
+
+1. Repetir execuções com diferentes algoritmos (XGBoost, RandomForest e LinearRegression) e datasets, em diferentes computadores/SOs.
+2. Repetir execuções com diferentes quantidades de jobs (parâmetro `n_jobs`, ver em https://github.com/cassales/progpar-2022-profiling#sugest%C3%B5es-de-algoritmos-para-fazer-o-profiling).
+3. Criar scripts em Python que chamem diretamente os algoritmos XGBoost, RandomForest e LinearRegression, retornando resultados equivalentes às execuções via Weka.
+4. Comparar execuções dos algoritmos via Weka com execuções em Python: qual será o impacto no tempo de execução?
+
+
+
