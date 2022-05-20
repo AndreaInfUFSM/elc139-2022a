@@ -45,14 +45,14 @@ Para realizar as execuções, faça o seguinte:
 2. Baixe uma versão alterada do `weka.sh`, que tem uma opção para ativar a coleta de dados com JFR. Faça isso dentro da pasta do Weka. Por exemplo:
    ```
    cd ~/Downloads/weka-3-8-6
-   wget ...
+   wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/wekajfr.sh
    ```
 
 3. Em uma pasta separada, baixe o script que automatiza as rodadas, o arquivo com as variáveis dos experimentos e um arquivo com configurações para o JFR:
    ```
-   wget ...
-   wget ...
-   wget ...
+   wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/run-exps.sh
+   wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/exp-vars.sh
+   wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/profile.jfc
    ```
    **Atenção!** Estes arquivos devem ficar todos na mesma pasta.
 
