@@ -51,7 +51,7 @@ Para realizar as execuções, faça o seguinte:
 3. Em uma pasta separada, baixe o script que automatiza as rodadas, o arquivo com as variáveis dos experimentos e um arquivo com configurações para o JFR:
    ```
    wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/run-exps.sh
-   wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/exp-vars.sh
+   wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/exp-vars.csv
    wget https://raw.githubusercontent.com/AndreaInfUFSM/elc139-2022a/master/trabalhos/t3/profile.jfc
    ```
    **Atenção!** Estes arquivos devem ficar todos na mesma pasta.
