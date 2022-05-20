@@ -29,18 +29,55 @@ Mas como esse tempo de execução se divide entre as diversas partes do Weka e d
 4. Avise a professora quando terminar esses passos, para "desbloquear" os passos seguintes. 😃
 
 
-# Profilers para Java
-
-Como o Weka é desenvolvido em Java, podemos usar profilers especializados em Java para entender o comportamento das execuções de seus algoritmos. Existem muitos profilers para Java, por exemplo: VisualVM, JProfiler, YourKit, Java Flight Recorder (JFR) + Java Mission Control (JMC), async-profiler, etc. Em geral, essas ferramentas são "sensíveis" às versões/implementações do Java. Assim, pode ser uma boa ideia descobrir mais sobre isso no Weka, antes de escolher um profiler (ou não :smiley:).
 
 # Desenvolvimento
 
-Para desenvolver este trabalho, vamos dividir as tarefas entre grupos/estudantes. Essas tarefas envolvem:
 
-1. Repetir execuções com diferentes algoritmos (XGBoost, RandomForest e LinearRegression) e datasets, em diferentes computadores/SOs.
-2. Repetir execuções com diferentes quantidades de jobs (parâmetro `n_jobs`, ver em https://github.com/cassales/progpar-2022-profiling#sugest%C3%B5es-de-algoritmos-para-fazer-o-profiling).
-3. Criar scripts em Python que chamem diretamente os algoritmos XGBoost, RandomForest e LinearRegression, retornando resultados equivalentes às execuções via Weka.
-4. Comparar execuções dos algoritmos via Weka com execuções em Python: qual será o impacto no tempo de execução?
+Vamos realizar execuções com diferentes algoritmos (XGBoost, RandomForest e LinearRegression) e datasets, em diferentes computadores. Também vamos variar o parâmetro `n_jobs` entre diferentes rodadas, para ativar a execução paralela dos algoritmos.
+As execuções serão feitas com e sem coleta de dados para profiling, que será feito combinando as ferramentas JFR (Java Flight Recorder) e JMC (Java Mission Control).
+
+Para facilitar as execuções, é fornecido um script que automatiza o processo, lendo as variáveis dos experimentos de um arquivo e salvando todos os resultados em uma pasta, de forma padronizada.
+
+Para realizar as execuções, faça o seguinte:
+
+1. Confira se você consegue executar o Weka via `weka.sh`, conforme instruções da seção de Preparação. 
+
+2. Baixe uma versão alterada do `weka.sh`, que tem uma opção para ativar a coleta de dados com JFR. Faça isso dentro da pasta do Weka. Por exemplo:
+   ```
+   cd ~/Downloads/weka-3-8-6
+   wget ...
+   ```
+
+3. Em uma pasta separada, baixe o script que automatiza as rodadas, o arquivo com as variáveis dos experimentos e um arquivo com configurações para o JFR:
+   ```
+   wget ...
+   wget ...
+   wget ...
+   ```
+   **Atenção!** Estes arquivos devem ficar todos na mesma pasta.
+
+4. Abra o script [run-exps.sh](run-exps.sh) e ajuste as variáveis com a localização do Weka e dos datasets. Certifique-se de que você tenha datasets na pasta indicada.
+
+5. Abra o arquivo [exp-vars.csv](exp-vars.csv) e veja que são fornecidos alguns exemplos de parâmetros para as rodadas. Para iniciar, é conveniente executar somente um caso de teste. Isso pode ser feito removendo os outros casos, mantendo somente as 2 primeiras linhas do arquivo (a primeira contém um cabeçalho e a segunda contém parâmetros para a execução).
+
+6. Para executar o script que automatiza as rodadas, vá para a pasta que contém o script e digite:
+   ```
+   bash run-exps.sh
+   ```
+   Se tudo der certo, será criada uma pasta de resultados contendo alguns arquivos:
+   - times.csv: contém tempos de execução de cada caso
+   - arquivos com extensão .txt: contêm saídas do Weka para cada caso
+   - arquivos com extensão .jfr: contêm informações para profiling e podem ser examinados usando o JMC obtido em: https://www.azul.com/products/components/zulu-mission-control/
+
+7. Depois de executar o script para um caso, você pode acrescentar outros algoritmos, datasets e valores de `n_jobs` em [exp-vars.csv](exp-vars.csv). 
+
+8. Quando tiver realizado os experimentos, entregue todos os arquivos com resultados em https://classroom.github.com/a/SRjt-pEL e preencha o relatório compartilhado (link para Google Docs será enviado no Discord).
 
 
 
+
+# Questões
+
+1. Qual o efeito do parâmetro `n_jobs` sobre o tempo de execução de cada algoritmo e dataset? 
+
+2. Usando o JMC, como o tempo de execução se divide entre os diversos métodos invocados em cada caso? (veja Method Profiling no JMC)

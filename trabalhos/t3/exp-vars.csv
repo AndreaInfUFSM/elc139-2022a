@@ -1,0 +1,8 @@
+"learner"|"dataset"|"n_jobs"|"learner_params"|"weka_params"|"output_prefix"
+"XGBClassifier"|"GMSC"|"1"|"tree_method='hist',n_jobs="|""|"XGB-CV"
+"XGBClassifier"|"GMSC"|"2"|"tree_method='hist',n_jobs="|"-split-percentage 80 -v"|"XGB-noCV"
+"XGBClassifier"|"GMSC"|"4"|"tree_method='hist',n_jobs="|"-split-percentage 80 -v"|"XGB-noCV"
+"RandomForestClassifier"|"covtypeNorm"|"1"|"max_depth=16,max_samples=1.0,n_jobs="|"-split-percentage 80 -v -dont-fetch-model"|"RFC-noCV"
+"RandomForestClassifier"|"GMSC"|"1"|"max_depth=16,max_samples=1.0,n_jobs="|"-split-percentage 80 -v -dont-fetch-model"|"RFC-noCV"
+"RandomForestClassifier"|"GMSC"|"2"|"max_depth=16,max_samples=1.0,n_jobs="|"-split-percentage 80 -v -dont-fetch-model"|"RFC-noCV"
+
