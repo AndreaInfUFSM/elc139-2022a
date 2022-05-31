@@ -157,7 +157,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>31/05/2022</td>
 <td>Ter</td>
 <td><ul>
- <li>Programação paralela com MPI em arquitetura com memória distribuída (<a href="https://docs.google.com/presentation/d/1hoyUIYlq1XALvdokS4KSqzhilgYAOPGlJgZyCd7nAE8/edit?usp=sharing">slides</a>).</li>
+ <li>Programação paralela com MPI em arquitetura com memória distribuída (<a href="https://docs.google.com/presentation/d/1hoyUIYlq1XALvdokS4KSqzhilgYAOPGlJgZyCd7nAE8/edit?usp=sharing">slides</a>). Usando MPI no <a href="https://colab.research.google.com/drive/1_XxISOKdP3vT-4H6TuZGvsnJBDvEK_9D?usp=sharing">Google Colab</a></li>
 
 </ul></td>
 </tr>
