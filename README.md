@@ -94,7 +94,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>05/05/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Apresentação e discussão do T2 - Experiências com profilers.</li>
+<li>Finalização do T2 - Experiências com profilers.</li>
 </ul></td>
 </tr>
 
@@ -103,7 +103,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>10/05/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Dinâmica sobre projeto de programas paralelos.</li>
+<li>Apresentação e discussão do T2 - Experiências com profilers.</li>
 </ul></td>
 </tr>
 
@@ -112,7 +112,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>12/05/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Metodologia de programação paralela: projeto e análise de desempenho de programas paralelos (slides | vídeo).</li>
+<li>Profiling de algoritmos de machine learning do Weka - preparação do ambiente experimental.</li>
 </ul></td>
 </tr>
 
@@ -130,7 +130,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>19/05/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela multithread em arquitetura com memória compartilhada.</li>
+<li>Profiling de algoritmos de machine learning do Weka - execuções de teste.</li>
 </ul></td>
 </tr>
 
@@ -139,7 +139,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>24/05/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Apresentação e discussão do T3 - Programação paralela multithread em arquitetura com memória compartilhada.</li>
+<li>Profiling de algoritmos de machine learning do Weka - execução dos experimentos.</li>
 </ul></td>
 </tr>
 
@@ -148,7 +148,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>26/05/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
+ <li>Dinâmica desplugada sobre projeto de programas paralelos. Metodologia PCAM de programação paralela (<a href="https://docs.google.com/presentation/d/1O5KM3Qn2te4rzwX8jfAmit0LNQUVkqDvYuqJ3uI3pIg/edit?usp=sharing">slides</a>).</li>
 </ul></td>
 </tr>
 
@@ -157,8 +157,8 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>31/05/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
-<li> Estudo de caso.</li>
+ <li>Programação paralela com MPI em arquitetura com memória distribuída (<a href="https://docs.google.com/presentation/d/1hoyUIYlq1XALvdokS4KSqzhilgYAOPGlJgZyCd7nAE8/edit?usp=sharing">slides</a>).</li>
+
 </ul></td>
 </tr>
 
