@@ -162,12 +162,11 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 </ul></td>
 </tr>
 
-<tr>
 <td align="right">16</td>
 <td>02/06/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
+<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -177,7 +176,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>07/06/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
+<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -187,7 +186,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>09/06/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
+<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -197,7 +196,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>14/06/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
+<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -216,7 +215,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>21/06/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
+<li>Programação paralela com OpenMP em memória compartilhada.</li>
 </ul></td>
 </tr>
 
@@ -225,7 +224,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>23/06/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
+<li>Programação paralela com OpenMP em memória compartilhada.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -235,7 +234,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>28/06/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
+<li>Programação paralela com OpenMP em memória compartilhada.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -245,7 +244,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>30/06/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
+<li>Programação paralela com OpenMP em memória compartilhada.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -255,7 +254,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>05/07/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
+<li>Programação paralela com OpenMP em memória compartilhada.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -265,7 +264,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>07/07/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
+<li>Programação paralela com OpenMP em memória compartilhada.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -336,14 +335,6 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td><ul>
 <li>Programação paralela em GPU com CUDA.</li>
 <li> Estudo de caso.</li>
-</ul></td>
-</tr>
-
-<tr>
-<td align="right">34</td>
-<td>23/98/2022</td>
-<td>Ter</td>
-<td><ul>
 </ul></td>
 </tr>
 </tbody></table>
