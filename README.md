@@ -167,7 +167,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>Qui</td>
 <td><ul>
 <li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
-<li> Estudo de caso.</li>
+ <li> Estudo de caso: <a href="https://hpc-tutorials.llnl.gov/mpi/examples/ser_mm.c">ser_mm.c</a> <a href="https://hpc-tutorials.llnl.gov/mpi/examples/mpi_mm.c">mpi_mm.c</a> <a href="https://github.com/elc117/mpi-examples/tree/main/mpi_matrix_mult">mpi_matrix_mult</a></li>
 </ul></td>
 </tr>
 
