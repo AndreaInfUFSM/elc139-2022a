@@ -16,6 +16,8 @@ Plataformas: Discord e GitHub
 ## Trabalhos
 1. [TOP500 & me: comparativo de arquiteturas paralelas](https://classroom.github.com/a/f4d420J6) (entrega até segunda, 25/04, 23h)
 2. [Experiências com profilers](https://classroom.github.com/a/vhy7BDPE) (entrega até quarta, 04/05, 23h)
+3. [Profiling de algoritmos de machine learning do Weka / wekaPython](trabalhos/t3)
+4. [Geração de Fractais de Mandelbrot com MPI](trabalhos/t4)
 
 ## Aulas
 
@@ -177,7 +179,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>Ter</td>
 <td><ul>
 <li>Programação paralela com MPI em arquitetura com memória distribuída.</li>
-<li> Estudo de caso.</li>
+<li> Estudo de caso: <a href="trabalhos/t4">T4</a>.</li>
 </ul></td>
 </tr>
 
