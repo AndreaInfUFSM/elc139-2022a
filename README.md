@@ -256,7 +256,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>05/07/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
+<li>Programação paralela em GPU com CUDA (<a href="https://docs.google.com/presentation/d/1Aq-tUcsESi_wxtHrlyN8csp0_g1LFgOV-OAhW-pk290/edit?usp=sharing">slides</a>).</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
@@ -266,7 +266,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>07/07/2022</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação paralela com OpenMP em memória compartilhada.</li>
+<li>Programação paralela em GPU com CUDA.</li>
 <li> Estudo de caso.</li>
 </ul></td>
 </tr>
