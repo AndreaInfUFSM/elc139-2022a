@@ -272,7 +272,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 </tr>
 
 <tr>
-<td align="right">28</td>
+<td align="right">27</td>
 <td>14/07/2022</td>
 <td>Qui</td>
 <td><ul>
@@ -282,7 +282,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 </tr>
 
 <tr>
-<td align="right">29</td>
+<td align="right">28</td>
 <td>19/07/2022</td>
 <td>Ter</td>
 <td><ul>
@@ -292,7 +292,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 </tr>
 
 <tr>
-<td align="right">30</td>
+<td align="right">29</td>
 <td>21/07/2022</td>
 <td>Qui</td>
 <td><ul>
@@ -302,7 +302,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 </tr>
 
 <tr>
-<td align="right">31</td>
+<td align="right">30</td>
 <td>26/07/2022</td>
 <td>Ter</td>
 <td><ul>
@@ -312,7 +312,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 </tr>
 
 <tr>
-<td align="right">32</td>
+<td align="right">31</td>
 <td>28/07/2022</td>
 <td>Qui</td>
 <td><ul>
@@ -322,7 +322,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 </tr>
 
 <tr>
-<td align="right">33</td>
+<td align="right">32</td>
 <td>02/08/2022</td>
 <td>Ter</td>
 <td><ul>
