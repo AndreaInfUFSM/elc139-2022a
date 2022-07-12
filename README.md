@@ -267,7 +267,7 @@ O cronograma de aulas abaixo serve como referência, mas estará em constante at
 <td>12/07/2022</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação paralela em GPU com CUDA. Experiências no Google Colab (<a href="https://colab.research.google.com/drive/1N1M7aiU77UJb8iJxkROcydREc76nEpfB?usp=sharing">1</a>) (<a href="https://colab.research.google.com/drive/1N1M7aiU77UJb8iJxkROcydREc76nEpfB?usp=sharing">2</a>).</li>
+<li>Programação paralela em GPU com CUDA. Experiências no Google Colab (<a href="https://colab.research.google.com/drive/1N1M7aiU77UJb8iJxkROcydREc76nEpfB?usp=sharing">1</a>) (<a href="https://colab.research.google.com/drive/1YQe2fyMjeHXHwQ99Op5DVjm3lV69oOM0?usp=sharing">2</a>).</li>
 </ul></td>
 </tr>
 
